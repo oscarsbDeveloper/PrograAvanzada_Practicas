@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="pg5_practica1ModelStoreContainer" CdmEntityContainer="pg5_practica1Entities">
+    <EntitySetMapping Name="empleado">
+      <EntityTypeMapping TypeName="pg5_practica1Model.empleado">
+        <MappingFragment StoreEntitySet="empleado">
+          <ScalarProperty Name="codigo" ColumnName="codigo" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="salario_bruto" ColumnName="salario_bruto" />
+          <ScalarProperty Name="salario_neto" ColumnName="salario_neto" />
+          <ScalarProperty Name="deducciones" ColumnName="deducciones" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
